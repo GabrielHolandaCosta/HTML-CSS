@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+.introdução{
+    background-color: black;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cordelmoderno{
+    font-size: 1.5em;
+}
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.introdução a {
+    color: white;
+    text-decoration: none;
+}
+
+.creditos a {
+    color: white;
+    text-decoration: none;
+}
+
+.primeiroparagrafo{
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.segundoparagrafo{
+    background-image: url("imagens/background001.jpg");
+    background-position: center center;
+    color: white;
+    padding: 40px;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.fundopreto{
+    background-color: #0000003b;
+    width: 500px;
+    padding: 2px;
+}
+
+.terceiroequartoparagrafo{
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.quintoparagrafo{
+    padding: 40px;
+    background-image: url("imagens/background002.jpg");
+    background-position: center center;
+    color: white;
+    padding: 40px;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.fundopreto2{
+    background-color: #0000003b;
+    width: 500px;
+    padding: 2px;
+}
+
+.sextoesetimoparagrafo{
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.creditos{
+    background-color: black;
+    color: white;
+    padding: 0.1px;
+    text-align: center;
+}

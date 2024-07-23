@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 1000px;
+            height: 200px;
+            border-collapse: collapse;
+            background-color: #F8F9FA;
+            position: relative;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            padding: 8px;  
+        }
+
+        p {
+            text-align: left;
+        }
+
+        .conclusao{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    
+    TABLE
+     CAPTION
+     THEAD
+       TR, TD, TH
+     TBODY
+       TR, TD, TH
+     TFOOT
+       TR, TD, TH
+
+       caption = título da tabela
+       TH = Título
+       TD = Dado
+    -->
+
+    <table>
+        <caption>Lista de unidades federativas do Brasil por população</caption>
+        <thead>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+            <th scope="col">Porcentagem da população total</th>
+            <th scope="col">País comparável (habitates)</th>
+        </thead>
+
+        <tbody>
+            <td>1</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/20px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" alt=""> São Paulo</td>
+            <td>44 411 238</td>
+            <td>21,88%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/22px-Flag_of_Argentina.svg.png" alt=""> Argentina (46 621 847)</td>
+        </tbody>
+        <tbody>
+            <td>2</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" alt=""> Minas Gerais</td>
+            <td>20 538 718	</td>
+            <td>10,11%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/22px-Flag_of_Burkina_Faso.svg.png" alt=""> Burquina Fasso (20 903 273)</td>
+        </tbody>
+        <tbody>
+            <td>3</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt=""> Rio de Janeiro</td>
+            <td>16 054 524</td>
+            <td>7,91%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/22px-Flag_of_Cambodia.svg.png" alt=""> Camboja (16 718 965)</td>
+        </tbody>
+        <tbody>
+            <td>4</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt=""> Bahia</td>
+            <td>14 141 626</td>
+            <td>6,96%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/22px-Flag_of_Zimbabwe.svg.png" alt=""> Zimbabwe (14 862 924)</td>
+        </tbody>
+        <tbody>
+            <td>5</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png" alt=""> Paraná</td>
+            <td>11 444 380	</td>
+            <td>5,64%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/22px-Flag_of_Tunisia.svg.png" alt=""> Tunísia (11 818 619)</td>
+        </tbody>
+        <tbody>
+            <td>6</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bandeira_do_Rio_Grande_do_Sul.svg/20px-Bandeira_do_Rio_Grande_do_Sul.svg.png" alt=""> Rio Grande do Sul</td>
+            <td>10 882 965</td>
+            <td>5,36%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/22px-Flag_of_Portugal.svg.png" alt=""> Portugal (10 343 066)</td>
+        </tbody>
+        <tbody>
+            <td>7</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bandeira_de_Pernambuco.svg/20px-Bandeira_de_Pernambuco.svg.png" alt=""> Pernambuco</td>
+            <td>9 058 931</td>
+            <td>4,46%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/22px-Flag_of_Austria.svg.png" alt=""> Áustria (9 006 398)</td>
+        </tbody>
+        <tbody>
+            <td>8</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bandeira_do_Cear%C3%A1.svg/20px-Bandeira_do_Cear%C3%A1.svg.png" alt=""> Ceará</td>
+            <td>8 794 957</td>
+            <td>4,33%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/20px-Flag_of_Papua_New_Guinea.svg.png" alt=""> Papua-Nova Guiné (8 947 024)</td>
+        </tbody>
+        <tbody>
+            <td>9</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bandeira_do_Par%C3%A1.svg/20px-Bandeira_do_Par%C3%A1.svg.png" alt=""> Pará</td>
+            <td>8 121 025	</td>
+            <td>4,1%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png" alt=""> Suíça (8 654 622)</td>
+        </tbody>
+        <tbody>
+            <td>10</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bandeira_de_Santa_Catarina.svg/20px-Bandeira_de_Santa_Catarina.svg.png" alt=""> Santa Catarina</td>
+            <td>7 610 361</td>
+            <td>3,75%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/22px-Flag_of_Laos.svg.png" alt=""> Laos (7 749 595)</td>
+        </tbody>
+        <tbody>
+            <td>11</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Goi%C3%A1s.svg/20px-Flag_of_Goi%C3%A1s.svg.png" alt=""> Goiás</td>
+            <td>7 056 495</td>
+            <td>3,47%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/22px-Flag_of_Bulgaria.svg.png" alt=""> Bulgária (6 948 445)</td>
+        </tbody>
+        <tbody>
+            <td>12</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Bandeira_do_Maranh%C3%A3o.svg/20px-Bandeira_do_Maranh%C3%A3o.svg.png" alt=""> Maranhão</td>
+            <td>6 775 805	</td>
+            <td>3,34%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/22px-Flag_of_Bulgaria.svg.png" alt=""> Bulgária (6 948 445)</td>
+        </tbody>
+        <tbody>
+            <td>13</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bandeira_da_Para%C3%ADba.svg/20px-Bandeira_da_Para%C3%ADba.svg.png" alt=""> Paraíba</td>
+            <td>3 974 687	</td>
+            <td>1,96%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/22px-Flag_of_Georgia.svg.png" alt=""> Geórgia (3 989 167)</td>
+        </tbody>
+        <tbody>
+            <td>14</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/20px-Bandeira_do_Amazonas.svg.png" alt=""> Amazonas</td>
+            <td>3 941 613</td>
+            <td>1,94%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/22px-Flag_of_Georgia.svg.png" alt=""> Geórgia (3 989 167)</td>
+        </tbody>
+        <tbody>
+            <td>15</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg/20px-Bandeira_do_Esp%C3%ADrito_Santo.svg.png" alt=""> Espírito Santo</td>
+            <td>3 833 712</td>
+            <td>1,89%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/22px-Flag_of_Georgia.svg.png" alt=""> Geórgia (3 989 167)</td>
+        </tbody>
+        <tbody>
+            <td>16</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bandeira_de_Mato_Grosso.svg/20px-Bandeira_de_Mato_Grosso.svg.png" alt=""> Mato Grosso</td>
+            <td>3 658 649</td>
+            <td>1,8%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/22px-Flag_of_Georgia.svg.png" alt=""> Geórgia (3 989 167)</td>
+        </tbody>
+        <tbody>
+            <td>17</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bandeira_do_Rio_Grande_do_Norte.svg/20px-Bandeira_do_Rio_Grande_do_Norte.svg.png" alt=""> Rio Grande do Norte</td>
+            <td>3 302 729	</td>
+            <td>1,8%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/22px-Flag_of_Uruguay.svg.png" alt=""> Uruguai (3 473 730)</td>
+        </tbody>
+        <tbody>
+            <td>18</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bandeira_do_Piau%C3%AD.svg/20px-Bandeira_do_Piau%C3%AD.svg.png" alt=""> Piauí</td>
+            <td>3 271 199	</td>
+            <td>1,63%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/22px-Flag_of_Bosnia_and_Herzegovina.svg.png" alt=""> Bósnia e Herzegovina (3 280 819)</td>
+        </tbody>
+        <tbody>
+            <td>19</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/20px-Bandeira_de_Alagoas.svg.png" alt=""> Alagoas</td>
+            <td>3 127 683	</td>
+            <td>1,54%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/22px-Flag_of_Mongolia.svg.png" alt=""> Mongólia (3 278 290)</td>
+        </tbody>
+        <tbody>
+            <td>20</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg/20px-Bandeira_do_Distrito_Federal_%28Brasil%29.svg.png" alt=""> Distrito Federal</td>
+            <td>2 817 381</td>
+            <td>1,39%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/22px-Flag_of_Armenia.svg.png" alt=""> Armênia (2 963 243)</td>
+        </tbody>
+        <tbody>
+            <td>21</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg/20px-Bandeira_de_Mato_Grosso_do_Sul.svg.png" alt=""> Mato Grosso do Sul</td>
+            <td>2 757 013	</td>
+            <td>1,36%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/22px-Flag_of_Albania.svg.png" alt=""> Albânia (2 877 797)</td>
+        </tbody>
+        <tbody>
+            <td>22</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Bandeira_de_Sergipe.svg/20px-Bandeira_de_Sergipe.svg.png" alt=""> Sergipe</td>
+            <td>2 209 558</td>
+            <td>1,09%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/22px-Flag_of_Gabon.svg.png" alt=""> Gabão (2 225 734)</td>
+        </tbody>
+        <tbody>
+            <td>23</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bandeira_de_Rond%C3%B4nia.svg/20px-Bandeira_de_Rond%C3%B4nia.svg.png" alt=""> Rondônia</td>
+            <td>1 581 196</td>
+            <td>0,78%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/22px-Flag_of_Bahrain.svg.png" alt=""> Bahrein (1 701 575)</td>
+        </tbody>
+        <tbody>
+            <td>24</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bandeira_do_Tocantins.svg/20px-Bandeira_do_Tocantins.svg.png" alt=""> Tocantins</td>
+            <td>1 511 460	</td>
+            <td>0,74%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/22px-Flag_of_Equatorial_Guinea.svg.png" alt=""> Guiné Equatorial (1 402 985)</td>
+        </tbody>
+        <tbody>
+            <td>25</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/20px-Bandeira_do_Acre.svg.png" alt=""> Acre</td>
+            <td>830 018	</td>
+            <td>0,41%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/22px-Flag_of_the_Comoros.svg.png" alt=""> Comores (869 601)</td>
+        </tbody>
+        <tbody>
+            <td>26</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bandeira_do_Amap%C3%A1.svg/20px-Bandeira_do_Amap%C3%A1.svg.png" alt=""> Amapá</td>
+            <td>733 759</td>
+            <td>0,36%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/20px-Flag_of_Guyana.svg.png" alt=""> Guiana (786 552)</td>
+        </tbody>
+        <tbody>
+            <td>27</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Bandeira_de_Roraima.svg/20px-Bandeira_de_Roraima.svg.png" alt=""> Roraima</td>
+            <td>636 707	</td>
+            <td>0,31%</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/22px-Flag_of_Montenegro.svg.png" alt=""> Montenegro (649 335)</td>
+        </tbody>
+
+        <tfoot>
+            <th>ㅤ</th>
+            <th scope="row">Total de Habitantes</th>
+            <td><strong>203 078 389</strong></td>
+        </tfoot>
+    </table>
+
+    <div class="conclusao">
+    <p>Esta é uma lista da <strong>população das unidades federativas</strong> <a href="https://pt.wikipedia.org/wiki/Brasil" target="_target">brasileiras</a> segundo dados divulgados pelo <a href="https://pt.wikipedia.org/wiki/Instituto_Brasileiro_de_Geografia_e_Estatística" target="_target">Instituto Brasileiro de Geografia e Estatística</a> (IBGE) em 28 de junho de 2023, com base no <a href="https://pt.wikipedia.org/wiki/Censo_demográfico_do_Brasil_de_2022" target="_target">Censo de 2022.</a></p>
+   </div>
+</body>
+</html>
