@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 35vw;
+            height: 600px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam odio quibusdam quaerat sapiente in debitis ut reiciendis deleniti, nobis maiores ullam, dolor, veniam dolore dolores modi? Distinctio, voluptatibus? Recusandae.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pg001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pg002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pg003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam odio quibusdam quaerat sapiente in debitis ut reiciendis deleniti, nobis maiores ullam, dolor, veniam dolore dolores modi? Distinctio, voluptatibus? Recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam odio quibusdam quaerat sapiente in debitis ut reiciendis deleniti, nobis maiores ullam, dolor, veniam dolore dolores modi? Distinctio, voluptatibus? Recusandae.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam odio quibusdam quaerat sapiente in debitis ut reiciendis deleniti, nobis maiores ullam, dolor, veniam dolore dolores modi? Distinctio, voluptatibus? Recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> <img src='imagens/logo-css.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum unde tempora. Odio facere eaque nisi incidunt, unde sunt neque ducimus laborum modi dolorum architecto, nihil nemo error obcaecati dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum unde tempora. Odio facere eaque nisi incidunt, unde sunt neque ducimus laborum modi dolorum architecto, nihil nemo error obcaecati dolores! </p>
+</body>
+</body>
+</html>
